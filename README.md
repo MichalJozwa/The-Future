@@ -2,6 +2,12 @@
 This is my bigger project so far! :P
 Everythink here is in form an exercise, but there's possibility it will be my first real site! (not portfolio)
 
+# Used tools and adds
+- VS Code
+  - Live SASS compiler
+  - Live server
+- Figma - whole project has been designed in it
+
 # To-do list:
 - [x] Hamburger lines after click, change into X (and conversely)
 - [ ] On active hamburger menu (in X pos), make it affixed
