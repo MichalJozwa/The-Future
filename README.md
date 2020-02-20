@@ -1,6 +1,6 @@
 # The Future is Our!
 This is my bigger project so far! :P
-Everythink here is in form an exercise, but there's possibility it will be my first real site! (not portfolio)
+Everything here is in form an exercise, but there's possibility it will be my first real site! (not portfolio)
 
 # Used tools and adds
 - VS Code
