@@ -10,6 +10,6 @@ Everything here is in form an exercise, but there's possibility it will be my fi
 
 # To-do list:
 - [x] Hamburger lines after click, change into X (and conversely)
-- [ ] On active hamburger menu (in X pos), make it affixed
-- [ ] Down-arrow button leads to slide down to the first section
-- [ ] Horizontal-scroll box section 
+- [x] Smooth scroll down-arrow button leads to the first section
+- [ ] On active hamburger menu (in X pos), make it affixed (doesn't move when scrolling)
+- [ ] Horizontal-scroll box section
