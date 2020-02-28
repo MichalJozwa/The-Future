@@ -9,9 +9,9 @@
 	<title>The Future</title>
 
 	<!-- Links -->
-	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/main/main.css">
 	<link rel="stylesheet" href="./Fonts/Google Sans/style.css">
-	<link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon">
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Poppins:300,400,500|Oswald:300,400|Raleway:200,300,400|Open+Sans:300,400&display=swap" rel="stylesheet">
 </head>
@@ -21,10 +21,10 @@
 		<div class="logo"><span class="logo-title">The Future</span></div>
 		<div class="nav-list-box">
 			<ul class="nav-list">
-				<li class="list-item"><a href="#">Home</a></li>
+				<li class="list-item"><a href="index.html">Home</a></li>
 				<li class="list-item"><a href="#">About</a></li>
 				<li class="list-item"><a href="#">Team</a></li>
-				<li class="list-item"><a href="#">Contact</a></li>
+				<li class="list-item"><a href="contact.html">Contact</a></li>
 			</ul>
 		</div>
 		<div class="hamburger">
@@ -39,46 +39,50 @@
 				<h1 class="header-title">Future is <span class="header-title-bold">Our!</span></h1>
 				<p class="header-paragraph">With Hoddle</p>
 			</div>
-			<div class="btn-box">
+			<a href="#premise" class="btn-box">
 				<div class="slide-btn-box">
 					<div class="slide-btn">
 						<span class="slide-arrow"></span>
 					</div>
 				</div>
-			</div>
+			</a>
 		</header>
 		<!-- Premise Section -->
-		<section class="premise">
+		<section class="premise" id="premise">
 			<!-- Premise Header Text -->
 			<div class="premise-text">
 				<h1 class="premise-title">Premise<span class="premise-title-underline"></span></h1>
 				<p class="premise-paragraph">Lorem ipsum dolor sit amet, consect- etur adipiscing elit. Amet, sed at quis urna. Volutpat lorem lorem condimentum tempus.</p>
 			</div>
 			<!-- Premise Boxes -->
-			<div class="premise-boxes">
-				<div class="premise-box box1">
-               <div class="premise-box-img"></div>
-					<div class="premise-box-text">
-						<h1 class="premise-box-title">Lifestyle</h1>
-						<p class="premise-box-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-						<a class="learn-more">Learn More</a>
+			<div class="premise-section-boxes">
+				<div class="premise-boxes">
+					<div class="premise-box box1">
+						<div class="premise-box-img"></div>
+						<div class="premise-box-text">
+                     <h1 class="premise-box-title">Lifestyle</h1>
+							<p class="premise-box-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+							<a class="learn-more">Learn More</a>
+						</div>
+               </div>
+               
+					<!-- <div class="premise-box box2">
+                  <div class="premise-box-img"></div>
+						<div class="premise-text">
+							<h1 class="premise-title"></h1>
+							<p class="premise-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, officia?</p>
+							<a class="learn-more">Learn More</a>
+						</div>
+					</div> -->
+				</div>
+				<!-- Order Premise Boxes -->
+				<div class="order-premise-box">
+					<div class="order-premise-circle">
+						<span class="order-circle premise-order-first" active></span>
+						<span class="order-circle premise-order-second"></span>
+						<span class="order-circle premise-order-third"></span>
 					</div>
 				</div>
-				<!-- <div class="premise-box box2">
-					<img src="./img/" class="premise-img">
-					<div class="premise-text">
-						<h1 class="premise-title"></h1>
-						<p class="premise-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, officia?</p>
-						<a class="learn-more">Learn More</a>
-					</div>
-				</div> -->
-            <!-- <div class="order-premise-box">
-               <div class="order-premise-circle">
-                  <span class="premise-order-first"></span>
-                  <span class="premise-order-second"></span>
-                  <span class="premise-order-third"></span>
-               </div>
-            </div> -->
 			</div>
 		</section>
 		<!-- Footer -->
@@ -89,8 +93,5 @@
 	</main>
 
 	<script src="app.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" 
-	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
-	crossorigin="anonymous"></script>
 </body>
 </html>

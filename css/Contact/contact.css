@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+form.contact-label {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 60vh;
+}
+
+form.contact-label > p {
+  display: block;
+  height: auto;
+  margin: .5rem 0;
+}
+
+form.contact-label > p label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 60px;
+  font-size: 1em;
+  color: #303030;
+  cursor: pointer;
+}
+
+form.contact-label > p label span {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+form.contact-label > p label span input:not(.send-submit),
+form.contact-label > p label span textarea {
+  border: 2px solid #d2d2d2;
+  padding: 8px 10px;
+  text-align: left;
+  color: #303030;
+  outline: none;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+form.contact-label > p label span input:not(.send-submit):focus,
+form.contact-label > p label span textarea:focus {
+  border: 2px solid #56c195;
+}
+
+form.contact-label > p label span input:not(.send-submit) {
+  height: 40px;
+  margin: 3px 0;
+  font-size: 1rem;
+  border-radius: 15px;
+}
+
+form.contact-label > p label span textarea {
+  min-height: 20px;
+  max-height: 100%;
+  margin: 10px 0;
+  font-size: 1.35rem;
+  border-radius: 18px;
+  resize: vertical;
+}
+
+input.send-submit-box {
+  display: block;
+  width: 80px;
+  height: 60px;
+  background: #bbbbbb;
+  cursor: pointer;
+}
+/*# sourceMappingURL=contact.css.map */
