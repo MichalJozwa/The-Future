@@ -13,3 +13,4 @@ Everything here is in form an exercise, but there's possibility it will be my fi
 - [x] Smooth scroll down-arrow button leads to the first section
 - [ ] On active hamburger menu (in X pos), make it affixed (doesn't move when scrolling)
 - [ ] Horizontal-scroll box section
+- [ ] Add Media Queries (Responsive View)
