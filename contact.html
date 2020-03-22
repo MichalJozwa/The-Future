@@ -20,6 +20,9 @@
 	<!-- Navigation -->
 	<nav>
 		<div class="logo"><span class="logo-title">The Future</span></div>
+		<div class="hamburger" tabindex="0">
+			<span class="hamburger-line"></span>
+		</div>
 		<div class="nav-list-box">
 			<ul class="nav-list">
 				<li class="list-item"><a href="index.html">Home</a></li>
@@ -28,9 +31,6 @@
 				<li class="list-item"><a href="contact.html">Contact</a></li>
 			</ul>
 		</div>
-		<div class="hamburger">
-			<span class="hamburger-line"></span>
-		</div>
 	</nav>
 	<!-- Main -->
 	<main>
@@ -38,60 +38,64 @@
 		<section class="premise" id="premise">
 			<!-- Premise Header Text -->
 			<div class="premise-text">
-				<h1 class="premise-title">Conatct<span class="premise-title-underline"></span></h1>
+				<h1 class="premise-title">Contact<span class="premise-title-underline"></span></h1>
 				<p class="premise-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, hic!</p>
 			</div>
 			<!-- Contact Form -->
 			<form class="contact-label" action="post">
-				<p>
-					<label>
-						Your Name<br>
-						<span class="your-name">
-							<input type="text" name="your-name" size="35" class="your-name-input" aria-required="true" aria-invalid="false">
-						</span>
-					</label>
-				</p>
-				<p>
-					<label>
-						Your Email<br>
-						<span class="your-email">
-							<input type="email" name="your-email" size="35" class="your-email-input" aria-required="true" aria-invalid="false">
-						</span>
-					</label>
-				</p>
-				<p>
-					<label>
-						Phone Number<br>
-						<span class="your-phone">
-							<input type="text" name="your-phone" size="35" class="your-phone-input" maxlength="25" aria-required="true" aria-invalid="false">
-						</span>
-					</label>
-				</p>
-				<p>
-					<label>
-						Message<br>
-						<span class="message">
-							<textarea type="text" name="your-phone" cols="30" rows="9" class="message-input" maxlength="1000" aria-required="true" aria-invalid="false"></textarea>
-						</span>
-					</label>
-				</p>
-				<p>
-					<label>
-						<span class="send-submit-box">
-                     <span class="btn-border"></span>
-							<input type="submit" value="Send" action="#" name="send-submit" class="send-submit"></input>
-						</span>
-					</label>
-				</p>
+				<div class="contact-label-box">
+					<p>
+						<label>
+							Your Name<br>
+							<span class="your-name">
+								<input type="text" name="your-name" size="35" class="your-name-input" aria-required="true" aria-invalid="false">
+							</span>
+						</label>
+					</p>
+					<p>
+						<label>
+							Your Email<br>
+							<span class="your-email">
+								<input type="email" name="your-email" size="35" class="your-email-input" aria-required="true" aria-invalid="false">
+							</span>
+						</label>
+					</p>
+					<p>
+						<label>
+							Phone Number<br>
+							<span class="your-phone">
+								<input type="text" name="your-phone" size="35" class="your-phone-input" maxlength="25" aria-required="false" aria-invalid="false">
+							</span>
+						</label>
+					</p>
+					<p>
+						<label>
+							Message<br>
+							<span class="message">
+								<textarea type="text" name="your-phone" cols="30" rows="9" class="message-input" maxlength="1000" aria-required="true" aria-invalid="false"></textarea>
+							</span>
+						</label>
+					</p>
+					<p>
+						<label>
+							<span class="send-submit-box">
+								<span class="btn-border"></span>
+								<input type="submit" value="Send" action="#" name="send-submit" class="send-submit"></input>
+							</span>
+						</label>
+					</p>
+				</div>
 			</form>
 		</section>
 		<!-- Footer -->
 		<footer>
 			<div class="top-footer"></div>
-			<span>Handcrafted by Michał Józwa. &copy; 2020.</span>
+			<span class="footer-text">Handcrafted by Michał Józwa. &copy; 2020.</span>
 		</footer>
 	</main>
-
+	
 	<script src="app.js"></script>
+	<!-- Font Awesome -->
+	<script src="https://use.fontawesome.com/6bb62665a8.js"></script>
 </body>
 </html>

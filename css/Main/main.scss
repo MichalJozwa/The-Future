@@ -16,7 +16,7 @@ body{
 // Other
 ::selection{
     background: #56c195;
-    color: #ebebeb;
+    color: #f8f8f8;
 }
 
 // Scroll
@@ -448,6 +448,9 @@ footer{
         margin-bottom: 5%;
         border-radius: 10px;
         background: #d2d2d2;
+    }
+    .footer-text{
+        // margin-bottom: 5vh; /* Wrong */
     }
 }
 

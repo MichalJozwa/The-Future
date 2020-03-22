@@ -19,6 +19,9 @@
 	<!-- Navigation -->
 	<nav>
 		<div class="logo"><span class="logo-title">The Future</span></div>
+		<div class="hamburger" tabindex="0">
+			<span class="hamburger-line"></span>
+		</div>
 		<div class="nav-list-box">
 			<ul class="nav-list">
 				<li class="list-item"><a href="index.html">Home</a></li>
@@ -26,9 +29,6 @@
 				<li class="list-item"><a href="#">Team</a></li>
 				<li class="list-item"><a href="contact.html">Contact</a></li>
 			</ul>
-		</div>
-		<div class="hamburger">
-			<span class="hamburger-line"></span>
 		</div>
 	</nav>
 	<!-- Main -->
@@ -39,9 +39,9 @@
 				<h1 class="header-title">Future is <span class="header-title-bold">Our!</span></h1>
 				<p class="header-paragraph">With Hoddle</p>
 			</div>
-			<a href="#premise" class="btn-box">
+			<a href="#premise" class="btn-box" tabindex="-1">
 				<div class="slide-btn-box">
-					<div class="slide-btn">
+					<div class="slide-btn" tabindex="1">
 						<span class="slide-arrow"></span>
 					</div>
 				</div>
@@ -88,10 +88,12 @@
 		<!-- Footer -->
 		<footer>
 			<div class="top-footer"></div>
-			<span>Handcrafted by Michał Józwa. &copy; 2020.</span>
+			<span class="footer-text">Handcrafted by Michał Józwa. &copy; 2020.</span>
 		</footer>
 	</main>
 
 	<script src="app.js"></script>
+	<!-- Font Awesome -->
+	<script src="https://use.fontawesome.com/6bb62665a8.js"></script>
 </body>
 </html>

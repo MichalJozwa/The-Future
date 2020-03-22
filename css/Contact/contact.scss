@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+// Contact Top-Text
+.premise-text{
+    margin-top: 5vh !important;
+}
+
 // Form
 form.contact-label{
     position: relative;
@@ -13,52 +18,67 @@ form.contact-label{
     align-items: center;
 
     width: 100%;
-    height: 60vh;
-    & > p{
-        display: block;
-        height: auto;
-        margin: .5rem 0;
-        label{
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
+    max-height: 80vh;
+    .contact-label-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
 
-            height: 60px;
-            font-size: 1em;
-            color: #303030;
-            cursor: pointer;
-            span{
-                width: 100%;
-                height: 100%;
+        max-width: 50vw;
+        height: 100%;
+        & > p{
+            &:not(:last-child){width:100%;}
+            display: block;
+            height: auto;
+            margin: .5rem 0;
+
+            label{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+    
+                min-height: 60px;
+                font-size: 1em;
+                color: #303030;
                 cursor: pointer;
+                span{
+                    width: 100%;
+                    height: 100%;
+                    cursor: pointer;
+    
+                    input:not(.send-submit),
+                    textarea{
+                        width: 100%;
 
-                input:not(.send-submit),
-                textarea{
-                    border: 2px solid rgb(210, 210, 210);
-                    padding: 8px 10px;
-                    text-align: left;
-                    color: #303030;
-                    outline: none;
-                    transition: .2s ease-in-out;
-                    &:focus{
-                        border: 2px solid #56c195;
+                        border: 2px solid rgb(210, 210, 210);
+                        padding: 8px 10px;
+                        text-align: left;
+                        color: #303030;
+                        outline: none;
+                        font-family: 'Open Sans';
+                        font-weight: 400;
+                        font-size: 1rem;
+                        transition: .15s ease-in-out;
+                        &:focus{
+                            border: 2px solid #56c195;
+                        }
                     }
-                }
-
-                input:not(.send-submit){
-                    height: 40px;
-                    margin: 3px 0;
-                    font-size: 1rem;
-                    border-radius: 15px;
-                }
-                textarea{
-                    min-height: 20px;
-                    max-height: 100%;
-                    margin: 10px 0;
-                    font-size: 1.35rem;
-                    border-radius: 18px;
-                    resize: vertical;
+    
+                    input:not(.send-submit){
+                        height: 40px;
+                        margin: 3px 0;
+                        border-radius: 15px;
+                    }
+                    textarea{
+                        margin: 10px 0;
+                        height: 100px;
+                        min-height: 42px;
+                        max-height: 150px;
+                        resize: vertical;
+                        border-radius: 16px;
+                    }
                 }
             }
         }
@@ -70,6 +90,18 @@ input.send-submit-box{
     display: block;
     width: 80px;
     height: 60px;
-    background: rgb(187, 187, 187);
     cursor: pointer;
+    
+    .btn-border{
+        border: 2px solid rgb(41, 41, 41);
+    }
+    .send-submit{
+        display: block;
+        position: absolute;
+        top: 10%;
+        right: 0;
+        width: 70px;
+        height: 90%;
+        background: rgb(187, 187, 187);
+    }
 }

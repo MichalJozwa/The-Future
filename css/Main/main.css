@@ -24,12 +24,12 @@ body {
 
 ::-moz-selection {
   background: #56c195;
-  color: #ebebeb;
+  color: #f8f8f8;
 }
 
 ::selection {
   background: #56c195;
-  color: #ebebeb;
+  color: #f8f8f8;
 }
 
 ::-webkit-scrollbar {

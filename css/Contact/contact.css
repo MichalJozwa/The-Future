@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+.premise-text {
+  margin-top: 5vh !important;
+}
+
 form.contact-label {
   position: relative;
   display: -webkit-box;
@@ -21,16 +25,38 @@ form.contact-label {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  height: 60vh;
+  max-height: 80vh;
 }
 
-form.contact-label > p {
+form.contact-label .contact-label-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 50vw;
+  height: 100%;
+}
+
+form.contact-label .contact-label-box > p {
   display: block;
   height: auto;
   margin: .5rem 0;
 }
 
-form.contact-label > p label {
+form.contact-label .contact-label-box > p:not(:last-child) {
+  width: 100%;
+}
+
+form.contact-label .contact-label-box > p label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,55 +70,71 @@ form.contact-label > p label {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  height: 60px;
+  min-height: 60px;
   font-size: 1em;
   color: #303030;
   cursor: pointer;
 }
 
-form.contact-label > p label span {
+form.contact-label .contact-label-box > p label span {
   width: 100%;
   height: 100%;
   cursor: pointer;
 }
 
-form.contact-label > p label span input:not(.send-submit),
-form.contact-label > p label span textarea {
+form.contact-label .contact-label-box > p label span input:not(.send-submit),
+form.contact-label .contact-label-box > p label span textarea {
+  width: 100%;
   border: 2px solid #d2d2d2;
   padding: 8px 10px;
   text-align: left;
   color: #303030;
   outline: none;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 1rem;
+  -webkit-transition: .15s ease-in-out;
+  transition: .15s ease-in-out;
 }
 
-form.contact-label > p label span input:not(.send-submit):focus,
-form.contact-label > p label span textarea:focus {
+form.contact-label .contact-label-box > p label span input:not(.send-submit):focus,
+form.contact-label .contact-label-box > p label span textarea:focus {
   border: 2px solid #56c195;
 }
 
-form.contact-label > p label span input:not(.send-submit) {
+form.contact-label .contact-label-box > p label span input:not(.send-submit) {
   height: 40px;
   margin: 3px 0;
-  font-size: 1rem;
   border-radius: 15px;
 }
 
-form.contact-label > p label span textarea {
-  min-height: 20px;
-  max-height: 100%;
+form.contact-label .contact-label-box > p label span textarea {
   margin: 10px 0;
-  font-size: 1.35rem;
-  border-radius: 18px;
+  height: 100px;
+  min-height: 42px;
+  max-height: 150px;
   resize: vertical;
+  border-radius: 16px;
 }
 
 input.send-submit-box {
   display: block;
   width: 80px;
   height: 60px;
-  background: #bbbbbb;
   cursor: pointer;
+}
+
+input.send-submit-box .btn-border {
+  border: 2px solid #292929;
+}
+
+input.send-submit-box .send-submit {
+  display: block;
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 70px;
+  height: 90%;
+  background: #bbbbbb;
 }
 /*# sourceMappingURL=contact.css.map */
