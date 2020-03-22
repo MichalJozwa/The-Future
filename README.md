@@ -14,7 +14,8 @@ Everything here is in form an exercise, but there's possibility it will be my fi
 - [ ] On active hamburger menu (in X pos), make it affixed (doesn't move when scrolling)
 - [ ] Horizontal-scroll box section
 - [ ] Add Media Queries (Responsive View)
-- [ ] Make send button on contact page
+- [ ] Make send button on Contact page
+- [ ] Sidebar with social media links in Contact page
 
 # Technologies
 - HTML
