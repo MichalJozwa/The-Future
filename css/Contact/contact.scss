@@ -5,8 +5,11 @@
 }
 
 // Contact Top-Text
-.premise-text{
-    margin-top: 5vh !important;
+.premise{
+    // flex-direction: row !important;
+    .premise-text{
+        margin-top: 5vh !important;
+    }
 }
 
 // Form
@@ -104,4 +107,12 @@ input.send-submit-box{
         height: 90%;
         background: rgb(187, 187, 187);
     }
+}
+
+// Sidebar links
+.sidebar-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
