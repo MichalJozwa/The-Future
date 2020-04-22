@@ -2,7 +2,7 @@
 This is my bigger project so far! :P
 Everything here is in form an exercise, but there's possibility it will be my first real site! (not portfolio)
 
-# Used tools and adds
+# Used tools and addons
 - VS Code
   - Live SASS compiler
   - Live server
